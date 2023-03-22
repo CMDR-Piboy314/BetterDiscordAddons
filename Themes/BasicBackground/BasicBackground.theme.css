@@ -32,9 +32,10 @@
 	--background:					url(
 										https://preview.redd.it/q3fmbndoptj51.png?width=3840&format=png&auto=webp&s=1e50a742ee1eee8ab67d5ecc5c7fa34329aef7bd
 									);	/* general background image */
+	
 	--backgroundposition:			center;						/* default: center				(position of background - values: [center/top/right/bottom/left])				*/
 	--backgroundsize:				cover;						/* default: cover				(sizefit of background - values: [cover/contain/auto])							*/
-	--backgroundblur:				500;						/* default: unset				(blur in px, only works when --background is set to an image)					*/
+	--backgroundblur:				5000;						/* default: unset				(blur in px, only works when --background is set to an image)					*/
 	
 	--popout:						var(--background);			/* default: var(--background)	(change to use another background/color for modals/popouts)						*/
 	--popoutposition:				var(--backgroundposition);	/* default: center				(position of popout - values: [center/top/right/bottom/left])					*/
