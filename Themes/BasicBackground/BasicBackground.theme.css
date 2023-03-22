@@ -30,12 +30,12 @@
 	--settingsicons:				1;							/* Use Settings Icons in User/Server/Channel Settings: 1 = yes, 0 = no											*/
 	
 	--background:					url(
-										https://lh5.googleusercontent.com/1nwi8Aphr4UTeByhrfWDlEeQ_LgD3Xj7Al9Lt-QDap22lqQDgo-Zw8qMtZNWnWyGDa4=w2400
+										https://lh5.googleusercontent.com/FZdTy4lUt5QqbAsnvM4F_VAABiNpQbGhccx2lNLe_5SkQm4PD9B25Ch3ZMXxHZa3A4o=w2400
 									);	/* general background image */
 	
 	--backgroundposition:			center;						/* default: center				(position of background - values: [center/top/right/bottom/left])				*/
 	--backgroundsize:				cover;						/* default: cover				(sizefit of background - values: [cover/contain/auto])							*/
-	--backgroundblur:				5000;						/* default: unset				(blur in px, only works when --background is set to an image)					*/
+	--backgroundblur:				unset;						/* default: unset				(blur in px, only works when --background is set to an image)					*/
 	
 	--popout:						var(--background);			/* default: var(--background)	(change to use another background/color for modals/popouts)						*/
 	--popoutposition:				var(--backgroundposition);	/* default: center				(position of popout - values: [center/top/right/bottom/left])					*/
